@@ -10,9 +10,9 @@ int main (int adgc, char *argv[]) {
         exit(1);
     }
     else if (rc == 0) {
-        printf("Child process value: %d", x);
+        printf("Child process value: %d\n", x);
     } else {
-        printf("Parent process value: %d", x);
+        printf("Parent process value: %d\n", x);
     }
     return 0;
 }
